@@ -1,0 +1,76 @@
+/* .display-practice{
+
+    background-color: gray;
+    display: none;
+
+}
+
+.d-none{
+
+    display: none;
+
+}
+
+.another{
+    visibility: hidden;
+} */
+
+/* .container > span{
+    display: inline-block;
+    background-color: green;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    display: inline-block;
+}
+
+.container:hover .tool-tip{
+    display: block;
+
+}
+
+.tool-tip{
+    display: none;
+    width: 200px;
+    background-color: #333;
+    color: #eee;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #000;
+    padding: 10px;
+    text-align: justify;
+    transition: display 2s;
+    
+} */
+
+/* .myclass{
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    overflow: auto;
+} */
+
+/* .myclass::-webkit-scrollbar {
+    width: 10px;
+  } */
+  
+  /* Track */
+  /* .myclass::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  } */
+  
+  /* Handle */
+  /* .myclass::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+   */
+  /* Handle on hover */
+  /* .myclass::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } */

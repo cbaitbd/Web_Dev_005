@@ -1,0 +1,74 @@
+// Logical Operator &&, || 
+
+// let person = {
+//   name: "Samim",
+//   age: 19,
+//   gender: 'other'
+// }
+
+// function welcome(man){
+//   if(man.gender === 'female' || man.gender === 'male'){
+
+//       alert("Your Are Welcome");
+   
+//   }
+// }
+
+// welcome(person);
+
+//  console.log( false && "Imran");
+//  console.log( false || "Imran");
+
+false, true;
+
+// let text = "kjfkd"
+// if( text === ''){
+//   alert("Text is empty");
+// }
+0, undefined, null, "", '        ', "0";
+
+1, "kfjkd";
+
+var arr = [];
+var obj = {
+  
+};
+
+// console.log(arr.length == 0);
+// console.log(Object.keys(obj).length == 0);
+
+var arr = [1 , 2];
+
+function myFunc(){
+
+}
+
+// console.log( '' == '');
+
+var str  = new String("Imran");
+var str2  = new String("Imran");
+
+// console.dir(str);
+
+//  [ 55, 98, 65, 1, -21]
+
+
+function sortSmallToBig (arr) {
+  let result = arr;
+  let length = result.length;
+
+  for(let i = 0; i < length; i++ ){ 
+
+    for(let j = i + 1; j < length ; j++){ 
+      if( result[i] > result[j]){
+        let tmp = result[i];
+        result[i] = result[j];
+        result[j] = tmp;
+      }
+    }
+    console.log(result);
+  }
+  console.log(result);
+}
+
+sortSmallToBig([ 55, 98, 65, 1, -21]);

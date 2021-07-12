@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap'); */
+
+
+/* TEXT */
+    /* text color */
+    /* text-decoration */
+    /* text-alignment */
+    /* text-shadow */
+    /* text-sapcing */
+    /* text-transformation */
+
+.myPara{
+    color: red;
+    /* text-align: left;
+    text-align: right; */
+    /* text-align: center; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+}
+
+/* h1{
+    text-align: center;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 10px green;
+    text-indent: 100px;
+    letter-spacing: 100px;
+} */
+
+@import url("../fonts/Lobster-Regular.ttf");
+@import url("../fonts/SUBWT___.ttf");
+.myPara{
+    /* text-indent: 100px; */
+
+    /* line-height: 50px; */
+    /* text-align: justify; */
+
+    /* font-family: monospace; */
+    /* font-family: 'Syne Mono', monospace; */
+    font-family: 'Lobster', cursive;
+}
+
+/* h1{ */
+    /* font-family: 'Lobster', cursive; */
+
+    /* font-family: Subway Ticker;
+} */
+
+/* @font-face {
+    font-family: myName;
+    src: url("../fonts/SUBWT___.ttf");
+  }
+
+
+  h1{
+      font-family: myName;
+  } */
+
+  h1{
+      /* font-size: 100px; */
+      font-style: italic;
+      font-weight: lighter;
+      font-variant: small-caps;
+  }

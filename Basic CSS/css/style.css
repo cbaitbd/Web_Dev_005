@@ -1,0 +1,40 @@
+/* 
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+
+h1 {
+    background-color: blue;
+    color: white
+}
+
+p {
+    font-size: 20px ;
+}
+
+
+.bg-blue{
+    background-color: blue;
+}
+
+.text-red{
+    color: red;
+}
+
+#myId{
+    padding: 20px;
+    background-color: seagreen;
+    color: white;
+} */
+
+.color-test{
+    height: 200px;
+    /* background-color: tomato; */
+    /* background-color: #FECC43; */
+    /* background-color: rgb( 55,200,20); */
+    /* background-color: rgba(55, 200, 20, .8); */
+}

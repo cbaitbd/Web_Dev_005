@@ -1,0 +1,129 @@
+/*
+.myClass {
+  height: calc(50px + 50px);
+  background-color: green;
+  border-radius: 20px;
+  margin-top: 50px;
+  width: 0;
+  animation-name: progress;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+}
+
+@keyframes progress {
+
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 25%;
+    height: 50px;
+    background-color: red;
+  }
+  50% {
+    width: 50%;
+    height: 50px;
+    background-color: yellow;
+  }
+
+  75% {
+    width: 75%;
+    height: 75px;
+    background-color: black;
+  }
+
+  100% {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+  }
+
+  from{
+      width: 0;
+  }
+  to{
+      width: 100%;
+  } 
+}
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sun {
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 400px;
+  left: -20%;
+  animation-name: rise;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+}
+
+.wall {
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  background-color: black;
+  bottom: 0;
+  animation-name: wall;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+}
+
+@keyframes rise {
+  0% {
+    top: 400px;
+    left: -20%;
+  }
+
+  25% {
+    top: 100px;
+    left: 15%;
+  }
+
+  50% {
+    top: 0;
+    left: 30%;
+  }
+
+  60% {
+    top: 0;
+    left: 40%;
+  }
+
+  75% {
+    top: 100px;
+    left: 60%;
+  }
+
+  100% {
+    top: 400px;
+    left: 90%;
+  }
+}
+
+@keyframes wall{
+    0%{
+        background-color: black;
+    }
+    50%{
+      background-color: white;
+    }
+    100%{
+      background-color: black;
+    }
+}

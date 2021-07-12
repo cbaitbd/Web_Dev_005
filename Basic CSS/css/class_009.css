@@ -1,0 +1,41 @@
+
+.icon{
+    font-size: 40px;
+    color: red;
+}
+
+
+.myList{
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: disc; */
+
+
+    /* list-style-type: upper-alpha;*/
+
+    /* list-style-image: url('../icons/heart.svg'); */
+
+}
+
+
+.myLink{
+    text-decoration: none;
+    background-color: green;
+    color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+
+    transition: background-color 1s;
+}
+
+
+.myLink:hover{
+    background-color: black;
+    color:  white;
+    cursor: not-allowed;
+}
+
+.myLink:visited{
+    background-color: red;
+    color: white;
+}

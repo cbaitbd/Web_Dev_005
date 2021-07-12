@@ -1,0 +1,108 @@
+
+/* .left{
+    float: right;
+} */
+
+
+/* .container{
+    border: solid black 2px;
+    padding: 20px;
+    overflow: hidden; 
+}
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+.left , .right{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.left{
+    background-color: green;
+    float: right;
+}
+
+.right{
+    background-color: blue;
+    float: left;
+} */
+
+/* 
+.clear{
+    clear: both;
+} */
+
+/* .new::after{
+    content: "New";
+    font-size: 12px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+} */
+
+/* .test{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 1);
+    opacity: .5; 
+} */
+
+/* .myBtn{
+    background-color: yellowgreen;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: 1s;
+}
+
+.myBtn:hover{
+    opacity: 0.5;
+}
+
+
+
+.img-container{
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+    border-radius: 50%;
+    transition: box-shadow .5s, transform 2s;
+}
+
+.myImg{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.img-container:hover{
+    box-shadow: 10px 10px 25px rgb(21, 218, 53);
+    transform: rotate(180deg);
+
+} */
+
+.myBg{
+    height: 100vh;
+    border: 20px solid black;
+    padding: 30px;
+    margin: 30px;
+    /* background-image: url('https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-origin: content-box; */
+
+    background-image: linear-gradient(to bottom right, red, green, blue, yellow, black, teal, tomato);
+}
+

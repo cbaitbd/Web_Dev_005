@@ -1,0 +1,301 @@
+// primitive Number, bool, string
+// Refenrence Array, Object, Date
+
+// var a = 10;
+// var b = a;
+// b = 15
+// console.log(b)
+// console.log(a)
+
+// var arr = [12, 13, 15];
+
+// var arr2 = arr;
+// var arr3 = arr2;
+
+// arr2.push(20)
+// arr.push(30)
+// // arr[2] = 17
+// // arr3 = [12, 13, 15]
+// // arr3.push(100)
+// console.log(arr2)
+// console.log(arr)
+// console.log(arr3)
+
+// var person = {
+//   name: "Mustafizur",
+//   age: 12,
+//   height: 5
+// }
+
+
+// var person2 = person;
+
+// person2.name = "Maruf"
+// console.log(person2)
+// console.log(person)
+
+// var arr = [1, 3, 5]
+
+// var arr2 = [...arr]
+
+// console.log(1, 3, 5)
+
+// arr2.push(15)
+// console.log(arr == arr2)
+// console.log(arr2)
+
+
+// var arafat = {
+//   name: "Yasir Arafat",
+//   age: 13,
+//   color: "black"
+// }
+// var arr = ["Maruf", "Mustafizur"];
+
+// var {name, age} = arafat;
+// var [p1, p2] = arr;
+
+// console.log(p2)
+
+
+// var name = "Imran"
+// var skills = ['HTML', 'CSS', "JS", "React"]
+
+// var person = {name, skills}
+
+// console.log(person)
+
+// this
+
+// console.log(this);
+// console.log();
+
+
+// var obj = {
+//   name: "Narzo 20",
+//   price: 12500,
+//   print: function (){
+//     // console.log(this);
+
+//     window.setTimeout(function(){
+//       console.log(this);
+//     }, 3000);
+//   }
+// }
+
+// obj.print();
+
+// var button = document.querySelector('button');
+
+// button.addEventListener('click', print);
+
+// function print() {
+//   console.log(this);
+// }
+
+
+// function printElm (something) {
+//   console.log(something);
+//   console.log(this);
+// }
+
+// printElm("imran")
+
+
+// var person = {
+//   name: "Arafat",
+//   skills : ['HTML', 'CSS', 'Bootstrap', 'Javascript'],
+//   showSkills : function () {
+//     this.skills.forEach( (skill) => {
+//       console.log(`${this.name} Knows ${skill}`);
+//     })
+//   }
+// }
+
+// person.showSkills();
+
+
+// function print(){
+//   console.log(this);
+// }
+
+// var obj = {
+//   name: "Maruf"
+// }
+
+// var print2 = print.bind(obj);
+// // print2();
+
+// var button = document.querySelector('button');
+
+// button.addEventListener('click', print2);
+
+// function test(){
+
+// }
+
+// console.dir(test)
+
+// var number = new Number(15);
+
+// console.log(number)
+
+// var maruf = {
+//   name : "maruf",
+//   age: 20
+// }
+
+// function Person(name, age){
+  // let person = {};
+
+  // person.name = name;
+  // person.age = age;
+
+  // return person;
+
+//   this.name = name;
+//   this.age = age;
+// }
+
+// let maruf = new Person('Maruf', 20);
+// let arafat = new Person('Arafat', 21);
+
+// console.log(maruf);
+// console.log(arafat);
+
+
+// function Product (name, model, price) {
+
+//   this.name = name;
+//   this.model = model;
+//   this.price = price;
+//   this.stock = 100;
+//   this.totalSell = 0;
+
+//   this.sell = (amount) => {
+//     this.stock = this.stock - amount;
+//     this.totalSell = this.totalSell + (amount * this.price);
+//   }
+
+//   this.showStock = () => {
+//     console.log(this.stock);
+//   }
+
+//   this.increaseStock = (amount) => {
+//     this.stock = this.stock + amount;
+//   }
+
+//   this.showTotalSell = () => {
+//     console.log(this.totalSell);
+//   }
+// }
+
+// let mobile = new Product('Realme', 'Narzo 20', 13000 );
+// let freez = new Product('Waltom', '25KG', 100 );
+
+// mobile.showStock();
+// mobile.sell(10);
+// mobile.showStock();
+// mobile.showTotalSell();
+// mobile.increaseStock(15);
+// mobile.showStock();
+
+// freez.sell(5);
+// mobile.showStock();
+// freez.showStock();
+
+// Product.prototype.discount = function (amount) {
+//   this.price = this.price - ( this.price * (amount / 100));
+// }
+
+// freez.discount(10);
+
+// console.log(freez.price);
+
+
+
+// Hoisting
+
+
+// console.log(name);
+
+// let name = "Imran";
+
+// console.log(name);
+
+// hello();
+
+// var hello =  function () {
+//   console.log("Hello");
+// }
+
+// hello();
+
+// function hello(callback) {
+
+//   callback();
+// }
+
+// try{
+
+//   hello();
+
+// }catch(err){
+//   // console.log(err);
+// }
+
+
+// let nameField = document.querySelector('#name');
+
+// function clickHandle(){
+//   try {
+//     shayHello(nameField.value);
+//   } catch (error) {
+//     console.log(error);
+//   }
+  
+//   console.log("hello");
+// }
+
+// function shayHello(name){
+//   alert("Hello "+name);
+
+
+// }
+
+// console.log(5 / 0);
+
+// JSON
+// JavaScript Object Notation
+
+// var jsonSting = '{ "name": "IMRAN" }';
+
+// function s (){
+//   // 
+// }
+
+// var book = {
+//   name: "The 100",
+//   price: 100,
+//   published: true
+// }
+
+
+// var bookString = JSON.stringify(book);
+// console.log(bookString );
+
+
+// Asyncronus, Syncronus
+
+
+console.log("Hello");
+
+let now = Date.now();
+
+setTimeout(() => console.log("Hello 2"), 0);
+
+
+console.log("Hello 3");
+
+
+
