@@ -54,11 +54,11 @@ $(document).ready(function(){
   //     alert("Element is toggled.")
   //   });
   // })
-  $('#h').click(function(){
-    $('p').slideUp(3000).slideDown(3000).css({
-      backgroundColor: 'red'
-    });
-  })
+  // $('#h').click(function(){
+  //   $('p').slideUp(3000).slideDown(3000).css({
+  //     backgroundColor: 'red'
+  //   });
+  // })
   // $('#s').click(function(){
   //   $('p').slideDown(3000);
   // })
@@ -67,5 +67,6 @@ $(document).ready(function(){
   // })
 
 
+  console.log($('*').not('meta'))
 
 });
