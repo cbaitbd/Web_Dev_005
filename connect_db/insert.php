@@ -4,6 +4,10 @@
 
  $message = '';
 
+ if( isset($_GET['msg']) ){
+  $message = $_GET['msg'];
+ }
+
  if($con){ 
    
   if( isset( $_POST['submit'] ) ){
@@ -21,8 +25,6 @@
       $message = mysqli_error($con);
     }
 
-  }else{
-    $message = "Request from Url.";
   }
    
    
@@ -83,6 +85,7 @@
               <td><?php echo $user['phone'] ?></td>
               <td>
                 <a href="edit.php?id=<?php echo $user['id'] ?>" class="btn btn-sm btn-warning">Edit</a>
+                <a href="delete.php?id=<?php echo $user['id'] ?>" class="btn btn-sm btn-danger ml-2">Delete</a>
               </td>
             </tr>
             <?php
